@@ -6,7 +6,6 @@ install:
 clean:
 
 distclean: clean
-	find ../site-packages -name "*.pyc" -exec /bin/rm -f {} \;
 
 .PHONY: all install clean distclean
 
